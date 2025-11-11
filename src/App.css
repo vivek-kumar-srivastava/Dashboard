@@ -1,0 +1,120 @@
+
+body{
+  padding: 20px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  position: fixed;
+  background: url("https://i.pinimg.com/736x/b6/0c/14/b60c14e1e981a8215cb552088301ff5f.jpg");
+  background-size: cover;
+}
+
+
+/* Layout wrapper */
+#appWrapper {
+  display: flex;
+  width: 100%;
+  gap: 60px;
+  position: fixed;
+}
+
+/* quotes box */
+#quotes{
+  height: 10vh;
+  width: 70%;
+  margin-right: 50px;
+  background-color: #205f81; /* soft sky blue */
+  border-radius: 10px;
+  border: 2px solid #23363f; /* gentle airy outline */
+}
+
+#quote{
+  height: 100%;
+  width: 90%;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#quote h2{
+  font-weight: 900;
+  color: #ffffff;
+}
+
+/* tasks section */
+#tasks{
+  height: 50vh;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 30px;
+  background-color: #67992a; /* soft moss green */
+}
+
+#taskMain{
+  padding: 20px;
+  height: 90%;
+  width: 85%;
+  color: #304232; /* calm natural grey-green */
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  flex-direction: column;
+}
+
+#task{
+ font-size: 35px;
+ font-weight: 700;
+ background-color: #97e95b; /* gentle pale green */
+ padding: 10px 50px;
+ border-radius: 10px;
+ color: #0a4f10; /* forest shade */
+ position: relative;
+}
+
+/* notes */
+#notes{
+  height: 25vh;
+  width: 100%;
+  background-color: #967a39; /* warm beige */
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+#note{
+ font-size: 35px;
+ font-weight: 700;
+ background-color: #cf9013; /* light tan */
+ padding: 10px 50px;
+ border-radius: 10px;
+ color: #513405; /* soft earthy brown */
+ position: relative;
+}
+
+/* goals section */
+#goals{
+  width: 20%;
+  height: 84vh;
+  background-color: #3371ab; /* light green-grey */
+  display: flex;
+  border-radius: 10px;
+  padding: 30px 0px;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.goalImage{
+  height: 32%;
+  width: 88%;
+  background-color: #e6efe4; /* pale garden green */
+  border-radius: 10px;
+}
+
+.goalImage img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
